@@ -1,7 +1,7 @@
 Following the IPL schedule
 
 ## Day 1
-### 1
+#### 1
 In C, if a function signature doesn’t specify any argument, it means that the function can be called with any number of parameters or without any parameters. But, it's not the case in C++ . The same thing holds good for user defined functions as well.
 
 ```c
@@ -13,7 +13,7 @@ int main() /*Better to use int main(void)*/
 ```
 [Link for GFG site](https://www.geeksforgeeks.org/difference-int-main-int-mainvoid/)
 
-### 2
+#### 2
 Preprocessors in C/C++ :
 - 'include' in the top of the c file will include all the required standard source code into our file
 - <stdio.h> asks the system to loof for files from the standard source ile folder. 
@@ -34,20 +34,16 @@ int main()
 - Any macro can be un-defined using #undef macro_name. After the undef statment in the code, the macro wont work.
 [Link for GFG Site](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)
 
+#### 3
+Behind the scenes of Compilation :
+Pre-processing -> Compiling -> Assember(Machine language conversion) -> Linking
+1. Pre-Processing : Removes the comments and expands the macros along with the included files. (sample.i file)
+2. Compiling   : High level to assembly level code (sample.s file)
+3. Assembler   : Assemly level to machine level code (sample.o file)
+4. Linking     : Links the code with other codes which are essential like environment settings. And it also links the function calls with definition.
+.c -> .i -> .s -> .o 
+
+
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
 [Link](url) and ![Image](src)
 ```
