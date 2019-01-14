@@ -1,8 +1,18 @@
-## Welcome to GitHub Pages
+Following the IPL schedule
 
-You can use the [editor on GitHub](https://github.com/AkbarHabeeb/IPL_Sheet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Day 1
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In C, if a function signature doesn’t specify any argument, it means that the function can be called with any number of parameters or without any parameters. But, it's not the case in C++ . The same thing holds good for user defined functions as well.
+
+```c
+int main() /*Better to use int main(void)*/
+{ 
+   /* .... */
+   return 0; 
+}
+```
+
+[Link for GFG site](https://www.geeksforgeeks.org/difference-int-main-int-mainvoid/)
 
 ### Markdown
 
@@ -25,13 +35,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AkbarHabeeb/IPL_Sheet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
