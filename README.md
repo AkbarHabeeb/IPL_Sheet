@@ -32,6 +32,9 @@ int main()
 ```
 - Some standard default macros __FILE__, __DATE__, __TIME__, __LINE__  gives some basic details of the program.
 - Any macro can be un-defined using #undef macro_name. After the undef statment in the code, the macro wont work.
+- Carriage return will delete one character and prints the next one or it will omit the before string and prints the after sentence alone. \r
+- Comment line which ends with \ will make the next line also commented. This is called Line-Slicing
+
 [Link for GFG Site](https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/)
 
 #### 3
@@ -41,7 +44,10 @@ Pre-processing -> Compiling -> Assember(Machine language conversion) -> Linking
 2. Compiling   : High level to assembly level code (sample.s file)
 3. Assembler   : Assemly level to machine level code (sample.o file)
 4. Linking     : Links the code with other codes which are essential like environment settings. And it also links the function calls with definition.
+
 .c -> .i -> .s -> .o 
+[Link for GFG site](https://www.geeksforgeeks.org/compiling-a-c-program-behind-the-scenes/)
+
 
 
 ```markdown
