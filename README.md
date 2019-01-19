@@ -53,3 +53,12 @@ Pre-processing -> Compiling -> Assember(Machine language conversion) -> Linking
 ```markdown
 [Link](url) and ![Image](src)
 ```
+
+
+## Day 2 
+#### 1
+- Variables in C are scoped statically. Meaning, the functions in c will return the same value irrespective of the function call which is calling.
+- If function declarations looks too odd, then convert it into posix epression and read it
+- Since we want the compiler to understand the variables during the lexical and parsing stage, compilers dont allow a variable to start with a number.
+- In C, global variables cant be declared dynamically. Similarly, the static variables as well.
+- For storage classes in C, here is a good source : [Link](https://www.geeksforgeeks.org/storage-classes-in-c/)
